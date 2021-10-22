@@ -1,3 +1,13 @@
 h4{
-  justify-content: right;
+  text-align: right;
+  position: relative;
+  top: 0px;
+  margin: 0;
+}
+
+h1{
+  text-align: left;
+  position: absolute;
+  top: 0px;
+  margin: 0;
 }
