@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Indie+Flower&display=swap');
+
+
+#top{
+  background-color: #E2E1DE;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  max-height: 100px;
+  padding-left: 33px;
+}
+
+#top h1 a,
+#top h1 a:link{
+  color: #000;
+  text-decoration-line: none;
+}
+
+#top a:visited{
+  color: #000;
+}
+
+#top a:hover{
+  color: #000;
+}
+
+#top a:active{
+  color: #000;
+}
+
+
+#top h1{
+  font-family: "Homemade Apple", "Helvetica", "Arial", sans-serif;
+  position: relative;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  top: 4px;
+  height: 100px;
+  text-decoration-line: none;
+}
+
+#top nav{
+  font-size: 17px;
+  justify-content: center;
+  position: fixed;
+  margin: 0;
+  top: 25px;
+  right: 0%;
+  padding-right: 15px;
+}
+
+#introduction p, #geography p {
+  font-family: "Indie Flower";
+}
+
+
+
+
+
+
+
+
+/* #top p{
+  font-size: 17px;
+  margin: -117px -1000px 100px -10px;
+
+  text-align: right;
+} */
+body{
+  background-color: #FFF5D7;
+}
