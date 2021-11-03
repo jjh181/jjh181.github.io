@@ -82,7 +82,7 @@ p{
 }
 
 html{
-  scroll-snap-margin-top: 90px;
+  scroll-padding-top: 90px;
 }
 
 #content{
