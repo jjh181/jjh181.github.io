@@ -2,6 +2,8 @@
 
 *{
   max-width: 1366px;
+  resize: both;
+  overflow: auto;
 }
 
 #top{
