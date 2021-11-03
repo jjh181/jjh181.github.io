@@ -2,6 +2,7 @@
 
 *{
   max-width: 1366px;
+  resize: none;
 }
 
 #top{
@@ -90,7 +91,6 @@ p{
 }
 
 #content{
-  overflow: auto;
   display: grid;
   grid-template-columns: 3fr 2fr 3fr;
   grid-template-rows: 435px 530px 900px 1200px;
