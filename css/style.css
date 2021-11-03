@@ -132,6 +132,7 @@ p{
 #figure3{
   align-self: center;
   justify-self: center;
+  grid-area: figure3;
 }
 
 #figure3 figcaption{
