@@ -77,14 +77,12 @@ a:active{
   font-family: "Indie Flower";
 }
 
-#geography{
-  scroll-padding-block-start: 90px;
-}
-
-
-
 p{
   line-height: 1.6;
+}
+
+html{
+  scroll-padding-top: 90px;
 }
 
 #content{
