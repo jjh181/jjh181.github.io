@@ -2,7 +2,7 @@
 
 *{
   max-width: 1366px;
-  resize: both;
+  resize: auto;
   overflow: auto;
 }
 
