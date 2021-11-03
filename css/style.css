@@ -93,15 +93,15 @@ p{
 
 #content{
   display: flex;
-  grid-template-columns: 3fr 2fr 3fr;
-  /* grid-template-rows: 435px 530px 900px 1200px; */
+  /* grid-template-columns: 3fr 2fr 3fr; */
+  grid-template-rows: 435px 530px 900px 1200px;
   grid-template-areas:
     "introduction introduction figure1"
     "figure2 geography geography"
     "figure3 government government"
     "economy economy economy";
   margin-top: 91px;
-  grid-template-rows:repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns:repeat(auto-fill, minmax(500px, 1fr));
 }
 
 #introduction{
