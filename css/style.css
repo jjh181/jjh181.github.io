@@ -88,7 +88,7 @@ p{
 #content{
   display: grid;
   grid-template-columns: 3fr 2fr 3fr;
-  grid-template-rows: 435px 530px 900px 1200px;
+  grid-auto-rows: minmax(min-content, max-content);
   grid-template-areas:
     "introduction introduction figure1"
     "figure2 geography geography"
@@ -96,6 +96,7 @@ p{
     "economy economy economy";
   margin-top: 91px;
 }
+
 
 #introduction{
   grid-area: introduction;
