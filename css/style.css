@@ -89,6 +89,7 @@ p{
 #content{
   display: grid;
   /* grid-template-columns: 3fr 2fr 3fr; */
+  grid-template-columns:repeat(auto-fill, minmax(500px, 3fr));
   grid-template-rows: 435px 530px 900px 1200px;
   grid-template-areas:
     "introduction introduction figure1"
@@ -96,7 +97,6 @@ p{
     "figure3 government government"
     "economy economy economy";
   margin-top: 91px;
-  grid-template-columns:repeat(auto-fill, minmax(500px, 3fr));
 }
 
 #introduction{
