@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Indie+Flower&display=swap');
 
 #top{
-  background-color: #E2E1DE;
+  background-color: #DC1720;
   position: fixed;
   top: 0%;
   left: 0%;
   width: 100%;
-  max-height: 100px;
+  max-height: 80px;
   padding-left: 33px;
 }
 
@@ -55,7 +55,7 @@ a:active{
 #top h1{
   font-family: "Homemade Apple", "Helvetica", "Arial", sans-serif;
   position: relative;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   padding: 0;
   top: 4px;
@@ -68,24 +68,58 @@ a:active{
   justify-content: center;
   position: fixed;
   margin: 0;
-  top: 25px;
+  top: 7px;
   right: 0%;
   padding-right: 15px;
 }
 
-#introduction p, #geography p {
+#introduction p, #geography p, #economy li, #economy p {
   font-family: "Indie Flower";
+}
+
+#economy li::marker{
+  font-family: "Arial";
+  font-size: 13px;
 }
 
 p{
   line-height: 1.6;
 }
 
-html{
-  scroll-padding-top: 90px;
+
+
+table {
+  table-layout: auto;
+  width: auto;
+  border: none;
+  border-collapse: collapse;
 }
 
-#content{
+td {
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.left{
+  padding-right: 15px;
+}
+
+.right{
+  border-left: 1px solid black;
+  padding-left: 15px;
+}
+
+.leader{
+  border-bottom: 1px solid black;
+}
+
+html{
+  scroll-padding: 80px;
+}
+
+main{
   display: grid;
   grid-auto-columns: minmax(min-content, max-content);
   grid-auto-rows: minmax(min-content, max-content);
@@ -94,7 +128,7 @@ html{
     "figure2 geography"
     "figure3 government"
     "economy economy";
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 
@@ -103,11 +137,12 @@ html{
 }
 
 #figure1{
-  align-self: center;
   justify-self: center;
   grid-area: figure1;
   width: 450px;
   height: 323px;
+  margin: 0;
+  margin-top: 25px;
 }
 
 #figure1 figcaption{
@@ -127,7 +162,6 @@ html{
 
 #geography{
   grid-area: geography;
-  margin-left: 10px;
 }
 
 #figure3{
@@ -141,13 +175,20 @@ html{
 }
 
 #government{
-  margin-left: 10px;
   grid-area: government;
+  margin-top: 15px;
 }
 
 #economy{
   grid-area: economy;
 }
+
+
+
+
+
+
+
 
 
 
