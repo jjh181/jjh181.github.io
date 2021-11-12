@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Homemade+Apple&family=Indie+Flower&family=Nunito&display=swap');
 
 #top{
   background-color: #DC1720;
@@ -8,6 +8,7 @@
   width: 100%;
   max-height: 80px;
   padding-left: 33px;
+  z-index: 1;
 }
 
 #top a,
@@ -73,20 +74,33 @@ a:active{
   padding-right: 15px;
 }
 
-#introduction p, #geography p, #economy li, #economy p {
-  font-family: "Indie Flower";
+#introduction p, #geography p, #economy li, #economy p, #economy td, #geography td, #government td, #government li, footer {
+  font-family: "Indie Flower", "Helvetica", "Arial", sans-serif;
 }
 
 #economy li::marker{
-  font-family: "Arial";
-  font-size: 13px;
+  font-family: serif;
+  font-size: 15px;
+}
+
+h2{
+  font-family: "Caveat","Helvetica", "Arial", sans-serif;
+  font-size: 33px;
+  margin-bottom: -7px;
+}
+
+#government h2, #geography h2{
+  margin-left: -4px;
+}
+
+h3{
+  font-family: "Nunito","Helvetica", "Arial", sans-serif;
+  font-style: italic;
 }
 
 p{
   line-height: 1.6;
 }
-
-
 
 table {
   table-layout: auto;
@@ -107,12 +121,30 @@ td {
 }
 
 .right{
-  border-left: 1px solid black;
+  border-left: 1px solid #000000;
+  padding-left: 15px;
+}
+
+.center{
+  border-left: 1px solid #000000;
+  padding-right: 15px;
   padding-left: 15px;
 }
 
 .leader{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000000;
+}
+
+.space{
+  margin-bottom: 20px;
+}
+
+.space2{
+  margin-top: 15px;
+}
+
+.title{
+  margin-bottom: 15px;
 }
 
 html{
@@ -121,7 +153,7 @@ html{
 
 main{
   display: grid;
-  grid-auto-columns: minmax(min-content, max-content);
+  grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(min-content, max-content);
   grid-template-areas:
     "introduction figure1"
@@ -138,11 +170,11 @@ main{
 
 #figure1{
   justify-self: center;
-  grid-area: figure1;
+  grid-area: figure3;
   width: 450px;
   height: 323px;
   margin: 0;
-  margin-top: 25px;
+  margin-top: 95px;
 }
 
 #figure1 figcaption{
@@ -151,9 +183,10 @@ main{
 
 #figure2{
   width: 450px;
-  align-self: center;
   justify-self: center;
-  grid-area: figure2;
+  grid-area: figure1;
+  margin: 0;
+  margin-top: 25px;
 }
 
 #figure2 figcaption{
@@ -162,12 +195,13 @@ main{
 
 #geography{
   grid-area: geography;
+  padding-right: 30px;
 }
 
 #figure3{
-  align-self: center;
   justify-self: center;
-  grid-area: figure3;
+  grid-area: figure2;
+  margin-top: 45px;
 }
 
 #figure3 figcaption{
@@ -176,24 +210,23 @@ main{
 
 #government{
   grid-area: government;
-  margin-top: 15px;
+  margin-top: 65px;
+}
+
+#figure4{
+  position: absolute;
+  top:2525px;
+  left: 700px;
+}
+
+#figure4 figcaption{
+  text-align: center;
 }
 
 #economy{
   grid-area: economy;
+  margin-top: -450px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
