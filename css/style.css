@@ -159,7 +159,7 @@ main{
     "introduction figure1"
     "figure2 geography"
     "figure3 government"
-    "economy economy";
+    "economy figure4";
   margin-top: 80px;
 }
 
@@ -214,9 +214,9 @@ main{
 }
 
 #figure4{
-  position: absolute;
-  top:2525px;
-  left: 700px;
+  grid-area: figure4;
+  align-self: center;
+  justify-self: center;
 }
 
 #figure4 figcaption{
