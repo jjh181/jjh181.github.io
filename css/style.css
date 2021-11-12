@@ -217,6 +217,7 @@ main{
   grid-area: figure4;
   align-self: flex-end;
   justify-self: center;
+  margin: 0;
 }
 
 #figure4 figcaption{
