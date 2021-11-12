@@ -163,6 +163,10 @@ main{
   margin-top: 80px;
 }
 
+#introduction, #geography, #government, #economy, footer{
+  padding-left: 130px;
+  padding-right: 195px;
+}
 
 #introduction{
   grid-area: introduction;
@@ -182,7 +186,6 @@ main{
 }
 
 #figure2{
-  width: 450px;
   justify-self: center;
   grid-area: figure1;
   margin: 0;
@@ -191,11 +194,11 @@ main{
 
 #figure2 figcaption{
   text-align: center;
+  width: 650px;
 }
 
 #geography{
   grid-area: geography;
-  padding-right: 30px;
 }
 
 #figure3{
@@ -226,11 +229,8 @@ main{
 
 #economy{
   grid-area: economy;
-  margin-top: -450px;
+  margin-top: -700px;
 }
-
-
-
 
 body{
   background-color: #FFF5D7;
