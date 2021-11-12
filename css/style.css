@@ -215,7 +215,7 @@ main{
 
 #figure4{
   grid-area: figure4;
-  align-self: center;
+  align-self: flex-end;
   justify-self: center;
 }
 
