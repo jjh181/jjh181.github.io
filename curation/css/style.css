@@ -1,13 +1,156 @@
-h4{
-  text-align: right;
-  position: relative;
-  top: 0px;
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=M+PLUS+2:wght@300&family=Playfair+Display&display=swap');
+
+#title{
+  align-content: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
+  margin-left: 40px;
 }
 
-h1{
-  text-align: left;
-  position: absolute;
-  top: 0px;
-  margin: 0;
+.top a,
+.top a:link{
+  color: #000;
+  text-decoration-line: none;
+}
+
+.top a:visited{
+  color: #000;
+}
+
+#topi h1 a:hover{
+  color: #D97A16;
+}
+
+#topi nav a:hover{
+  color: #D97A16;
+  text-decoration-line: underline;
+}
+
+.top a:active{
+  color: #000;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: -22px;
+  max-height: 100px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  min-width: 325px;
+  font-family: 'M Plus 2', sans-serif;
+  padding-right: 25px;
+}
+
+#about h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+}
+
+#about p{
+  font-family: 'M Plus 2', sans-serif;
+  font-size: 15px;
+}
+
+#home{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+      "figure text";
+}
+
+#player{
+  grid-area: figure;
+  width: 100%;
+  height: auto;
+  margin-top: 17px;
+  align-content: center;
+}
+
+#player figcaption{
+  text-align: center;
+  font-family: 'M Plus 2', sans-serif;
+  font-size: 10px;
+}
+
+#about{
+  grid-area: text;
+  padding-left: 77px;
+  padding-right: 222px;
+  padding-top: -3px;
+}
+
+.artist, .am, .spotify{
+  color: #FFFFFF;
+  margin-left: 35px;
+}
+
+.artist{
+  font-family: 'Playfair Display', serif;
+  margin-top: 215px;
+  font-size: 30px;
+}
+
+.am, .spotify{
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.attr{
+  font-family: 'Assistant', sans-serif;
+  font-size: 10px;
+  color: #FFFFFF;
+  margin-top: 180px;
+  text-align: center;
+}
+
+.attr a,
+.attr a:link{
+  color: #FFFFFF;
+  text-decoration-line: underline;
+}
+
+.attr a:visited{
+  color: #FFFFFF;
+}
+
+.attr a:hover{
+  color: #FFFFFF;
+  text-decoration-line: underline;
+}
+
+.attr a:active{
+  color: #FFFFFF;
+}
+
+#artist_playlists{
+  display: grid;
+  grid-template-columns: repeat(3, 405px);
+  grid-template-rows: repeat(5, 580px);
+  grid-gap: 25px;
+  grid-template-areas:
+      "tyler frank smino"
+      "denzel kendrick andy"
+      "andre cole jid"
+      "caesar chance ajr"
+      "mraz . .";
+  margin-left: 80px;
+}
+
+#tyler{
+  background-image: url("/Users/jaredharwin/Documents/GitHub/jjh181.github.io/curation/tyler.jpg");
+  grid-area: tyler;
+  background-size: cover;
+}
+
+#frank{
+  background-image: url("/Users/jaredharwin/Documents/GitHub/jjh181.github.io/curation/frank.jpg");
+  grid-area: frank;
+  background-size: cover;
 }
