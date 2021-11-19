@@ -144,13 +144,13 @@ nav{
 }
 
 #tyler{
-  background-image: url("../tyler.jpg");
+  background-image: url("/../tyler.jpg");
   grid-area: tyler;
   background-size: cover;
 }
 
 #frank{
-  background-image: url("../frank.jpg");
+  background-image: url("/../frank.jpg");
   grid-area: frank;
   background-size: cover;
 }
