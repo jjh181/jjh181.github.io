@@ -85,7 +85,7 @@ nav{
   padding-top: -3px;
 }
 
-.artist, .am, .spotify{
+.artist, .am, .spotify, .artist_smi{
   color: #FFFFFF;
   margin-left: 35px;
 }
@@ -93,6 +93,12 @@ nav{
 .artist{
   font-family: 'Playfair Display', serif;
   margin-top: 215px;
+  font-size: 30px;
+}
+
+.artist_smi{
+  font-family: 'Playfair Display', serif;
+  margin-top: 255px;
   font-size: 30px;
 }
 
@@ -141,10 +147,11 @@ nav{
       "caesar chance ajr"
       "mraz . .";
   margin-left: 80px;
+  margin-right: 80px;
 }
 
 #tyler{
-  background-image: url("../tyler.jpg");
+  background-image: url("../images/tyler.jpg");
   grid-area: tyler;
   background-size: cover;
   width: 405px;
@@ -152,10 +159,17 @@ nav{
 }
 
 #frank{
-  background-image: url("../frank.jpg");
+  background-image: url("../images/frank.jpg");
   grid-area: frank;
   background-size: cover;
-  background-position: center;
   width: 405px;
   height: 580px;
 }
+
+#smino{
+  background-image: url("../images/smino.jpg");
+  grid-area: smino;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+  }
