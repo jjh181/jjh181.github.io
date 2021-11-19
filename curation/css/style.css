@@ -144,7 +144,7 @@ nav{
 }
 
 #tyler{
-  background-image: url("/tyler.jpg");
+  background-image: url("https://github.com/jjh181/jjh181.github.io/blob/main/curation/tyler.jpg");
   grid-area: tyler;
   background-size: cover;
 }
