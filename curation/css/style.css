@@ -147,6 +147,8 @@ nav{
   background-image: url("../tyler.jpg");
   grid-area: tyler;
   background-size: cover;
+  width: 405px;
+  height: 580px;
 }
 
 #frank{
@@ -154,4 +156,6 @@ nav{
   grid-area: frank;
   background-size: cover;
   background-position: center;
+  width: 405px;
+  height: 580px;
 }
