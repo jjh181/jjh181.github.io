@@ -150,7 +150,8 @@ nav{
 }
 
 #frank{
-  background-image: url("/frank.jpg");
+  background-image: url("../frank.jpg");
   grid-area: frank;
   background-size: cover;
+  background-position: center;
 }
