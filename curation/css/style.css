@@ -5,7 +5,7 @@
   justify-content: center;
   font-family: 'Playfair Display', serif;
   font-size: 27px;
-  margin-left: 40px;
+  margin-left: 80px;
 }
 
 .top a,
@@ -66,7 +66,6 @@ nav{
 
 #player{
   grid-area: figure;
-  width: 100%;
   height: auto;
   margin-top: 17px;
   align-content: center;
@@ -76,6 +75,7 @@ nav{
   text-align: center;
   font-family: 'M Plus 2', sans-serif;
   font-size: 10px;
+
 }
 
 #about{
