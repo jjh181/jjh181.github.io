@@ -7,18 +7,24 @@
   font-size: 27px;
 }
 
-.top a,
-.top a:link{
+a,
+a:link{
   color: #000;
   text-decoration-line: none;
 }
 
-.top a:visited{
+a:visited{
   color: #000;
+}
+
+a:hover{
+  color: #0100EE;
+  text-decoration-line: underline;
 }
 
 #topi h1 a:hover{
   color: #D97A16;
+  text-decoration-line: none;
 }
 
 #topi nav a:hover{
@@ -28,6 +34,7 @@
 
 #topap h1 a:hover{
   color: #49CFF6;
+  text-decoration-line: none;
 }
 
 #topap nav a:hover{
@@ -37,6 +44,7 @@
 
 #topc h1 a:hover{
   color: #8C3448;
+  text-decoration-line: none;
 }
 
 #topc nav a:hover{
@@ -46,6 +54,7 @@
 
 #topcu h1 a:hover{
   color: #008001;
+  text-decoration-line: none;
 }
 
 #topcu nav a:hover{
@@ -53,7 +62,7 @@
   text-decoration-line: none;
 }
 
-.top a:active{
+a:active{
   color: #000;
 }
 
@@ -329,31 +338,15 @@ figcaption{
   text-align: center;
 }
 
-#sospic a, #weekpic a,
-#sospic a:link, #weekpic a:link{
-  color: #000;
-  text-decoration-line: none;
-}
-
-#sospic a:visited, #weekpic a:visited{
-  color: #000;
-}
-
-#sospic a:hover, #weekpic a:hover{
-  color: #0100EE;
-  text-decoration-line: underline;
-}
-
-#sospic a:active, #weekpic a:active{
-  color: #000;
-}
 
 
 #contact{
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: minmax(min-content, max-content);
   grid-template-areas:
     "socialtitle socialtitle socialtitle socialtitle"
+    "insta-icon twitter-icon apple-icon spotify-icon"
     "insta twitter applem spotify";
   margin-left: 82px;
   margin-right: 80px;
@@ -365,19 +358,33 @@ figcaption{
 
 #insta{
   grid-area: insta;
+  text-align: center;
 }
 
 #twitter{
   grid-area: twitter;
+  text-align: center;
 }
 
 #applem{
   grid-area: applem;
+  text-align: center;
 }
 
 #spotify{
   grid-area: spotify;
+  text-align: center;
 }
+
+#apple{
+  grid-area: apple-icon;
+  justify-self: center;
+}
+
+
+
+
+
 
 .title{
   font-family: 'Playfair Display', serif;
