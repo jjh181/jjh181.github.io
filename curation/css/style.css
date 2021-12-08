@@ -17,7 +17,7 @@ a:visited{
   color: #000;
 }
 
-a:hover{
+.collection_link a:hover{
   color: #0100EE;
   text-decoration-line: underline;
 }
@@ -33,12 +33,12 @@ a:hover{
 }
 
 #topap h1 a:hover{
-  color: #49CFF6;
+  color: #53879D;
   text-decoration-line: none;
 }
 
 #topap nav a:hover{
-  color: #49CFF6;
+  color: #53879D;
   text-decoration-line: none;
 }
 
@@ -60,6 +60,10 @@ a:hover{
 #topcu nav a:hover{
   color: #008001;
   text-decoration-line: none;
+}
+
+.active{
+  text-decoration-line: underline;
 }
 
 a:active{
@@ -354,6 +358,7 @@ figcaption{
 
 #socialtitle{
   grid-area: socialtitle;
+  margin-bottom: 25px;
 }
 
 #insta{
@@ -376,14 +381,29 @@ figcaption{
   text-align: center;
 }
 
-#apple{
+.fa-instagram{
+  grid-area: insta-icon;
+  justify-self: center;
+}
+
+.fa-twitter{
+  grid-area: twitter-icon;
+  justify-self: center;
+}
+
+.fa-apple{
   grid-area: apple-icon;
   justify-self: center;
 }
 
+.fa-spotify{
+  grid-area: spotify-icon;
+  justify-self: center;
+}
 
-
-
+.fab{
+  font-size: 50px;
+}
 
 
 .title{
@@ -393,6 +413,44 @@ figcaption{
 
 .item{
   font-family: 'Assistant', sans-serif;
+}
+
+.artist_link a,
+.artist_link a:link{
+  color: #FFFFFF;
+  text-decoration-line: none;
+}
+
+.artist_link a:visited{
+  color: #FFFFFF;
+}
+
+.artist_link a:hover{
+  color: #FFFFFF;
+  text-decoration-line: underline;
+}
+
+.artist_link a:active{
+  color: #000;
+}
+
+.social_link a,
+.social_link a:link{
+  color: #000;
+  text-decoration-line: none;
+}
+
+.social_link a:visited{
+  color: #000;
+}
+
+.social_link a:hover{
+  color: #000;
+  text-decoration-line: none;
+}
+
+.social_link a:active{
+  color: #000;
 }
 
 #arrow{
