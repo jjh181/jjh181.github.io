@@ -660,6 +660,7 @@ figcaption{
   }
 
   #home{
+    grid-template-columns: 1;
     grid-template-areas:
         "figure"
         "text";
