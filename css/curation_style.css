@@ -653,10 +653,27 @@ figcaption{
 
 
 @media (max-width: 1125px) {
+  .top{
+    margin-left: auto;
+  }
+
+  nav{
+    padding: 0;
+  }
+
   #home{
     grid-template-areas:
         "figure"
         "text";
+  }
+
+  #player{
+    grid-area: figure;
+    margin: auto;
+    margin-top: 17px;
+    align-content: center;
+    justify-self: center;
+    padding: 0;
   }
 
   #artist_playlists{
