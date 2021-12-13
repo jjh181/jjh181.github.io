@@ -676,6 +676,7 @@ figcaption{
 
   #about{
     padding-left: 125px;
+    justify-self: center;
   }
 
   #artist_playlists{
