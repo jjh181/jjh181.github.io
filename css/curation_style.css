@@ -659,18 +659,12 @@ figcaption{
 
   #artist_playlists{
     grid-template-areas:
-        "tyler"
-        "frank"
-        "smino"
-        "denzel"
-        "kendrick"
-        "andy"
-        "andre"
-        "cole"
-        "jid"
-        "caesar"
-        "chance"
-        "mraz";
+        "tyler frank"
+        "smino denzel"
+        "kendrick andy"
+        "andre cole"
+        "jid caesar"
+        "chance mraz";
   }
 
   #collections{
@@ -684,8 +678,6 @@ figcaption{
       "weeklinks"
       "weekdescrip"
       "more";
-    margin-left: 82px;
-    margin-right: 80px;
   }
 
   #sospic{
