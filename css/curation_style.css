@@ -658,6 +658,7 @@ figcaption{
   }
 
   #artist_playlists{
+    grid-gap: 5px;
     grid-template-areas:
         "tyler frank"
         "smino denzel"
