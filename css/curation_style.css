@@ -333,7 +333,7 @@ figcaption{
   grid-template-rows: minmax(min-content, max-content);
   grid-gap: 20px;
   grid-template-areas:
-    "sospic sospic weekpic weekpic"
+    "pic pic pic pic"
     "sostitle sostitle weektitle weektitle"
     "soslinks soslinks weeklinks weeklinks"
     "sosdescrip sosdescrip weekdescrip weekdescrip"
@@ -364,13 +364,10 @@ figcaption{
   margin-left: 20px;
 }
 
-#sospic{
-  grid-area: sospic;
-  width: auto;
-}
-
-#weekpic{
-  grid-area: weekpic;
+#collectionpics{
+  display: flex;
+  grid-area: pic;
+  justify-content: space-between;
 }
 
 #sostitle{
@@ -649,4 +646,97 @@ figcaption{
 .day a:hover{
   color: #000;
   text-decoration-line: underline;
+}
+
+
+
+
+
+@media (max-width: 736px) {
+  #home{
+    grid-template-areas:
+        "figure"
+        "text";
+  }
+
+  #artist_playlists{
+    grid-template-areas:
+        "tyler"
+        "frank"
+        "smino"
+        "denzel"
+        "kendrick"
+        "andy"
+        "andre"
+        "cole"
+        "jid"
+        "caesar"
+        "chance"
+        "mraz";
+  }
+
+  #collections{
+    grid-template-areas:
+      "sospic"
+      "sostitle"
+      "soslinks"
+      "sosdescrip"
+      "weekpic"
+      "weektitle"
+      "weeklinks"
+      "weekdescrip"
+      "more";
+    margin-left: 82px;
+    margin-right: 80px;
+  }
+
+  #sospic{
+    grid-area: sospic;
+  }
+
+  #weekpic{
+    grid-area: weekpic;
+  }
+
+
+  #contact{
+    grid-template-areas:
+      "socialtitle"
+      "insta-icon"
+      "insta"
+      "twitter-icon"
+      "twitter"
+      "apple-icon"
+      "applem"
+      "spotify-icon"
+      "spotify";
+  }
+
+
+  .row1{
+    grid-template-areas:
+      "sunpic"
+      "sunday"
+      "monpic"
+      "monday"
+      "tuespic"
+      "tuesday"
+      "wedpic"
+      "wednesday";
+  }
+
+  .row2{
+    grid-template-areas:
+      "thurspic"
+      "thursday"
+      "fripic"
+      "friday"
+      "satpic"
+      "saturday";
+  }
+
+
+
+
+
 }
