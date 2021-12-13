@@ -723,6 +723,7 @@ figcaption{
   #collections{
     margin-left: 80px;
     margin-right: 80px;
+    grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "sospic"
       "sostitle"
