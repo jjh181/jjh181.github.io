@@ -653,6 +653,10 @@ figcaption{
 
 
 @media (max-width: 1125px) {
+  #title{
+    font-size: 45px;
+  }
+
   .top{
     margin-left: auto;
   }
