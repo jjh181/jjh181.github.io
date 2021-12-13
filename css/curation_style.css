@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=M+PLUS+2:wght@300&family=Playfair+Display&display=swap');
 
-#title{
-  align-content: center;
-  justify-content: center;
-  font-family: 'Playfair Display', serif;
-  font-size: 27px;
+
+
+/* All Pages */
+
+.active{
+  text-decoration-line: underline;
 }
 
 a,
@@ -17,9 +18,20 @@ a:visited{
   color: #000;
 }
 
-.collection_link a:hover{
-  color: #0100EE;
-  text-decoration-line: underline;
+a:active{
+  color: #000;
+}
+
+
+
+
+/* Homepage */
+
+#title{
+  align-content: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
 }
 
 #topi h1 a:hover{
@@ -30,44 +42,6 @@ a:visited{
 #topi nav a:hover{
   color: #D97A16;
   text-decoration-line: none;
-}
-
-#topap h1 a:hover{
-  color: #53879D;
-  text-decoration-line: none;
-}
-
-#topap nav a:hover{
-  color: #53879D;
-  text-decoration-line: none;
-}
-
-#topc h1 a:hover{
-  color: #8C3448;
-  text-decoration-line: none;
-}
-
-#topc nav a:hover{
-  color: #8C3448;
-  text-decoration-line: none;
-}
-
-#topcu h1 a:hover{
-  color: #008001;
-  text-decoration-line: none;
-}
-
-#topcu nav a:hover{
-  color: #008001;
-  text-decoration-line: none;
-}
-
-.active{
-  text-decoration-line: underline;
-}
-
-a:active{
-  color: #000;
 }
 
 .top{
@@ -121,6 +95,40 @@ figcaption{
 #about{
   grid-area: text;
   padding: 25px 197px 0 102px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Artist Playlists */
+
+#topap h1 a:hover{
+  color: #53879D;
+  text-decoration-line: none;
+}
+
+#topap nav a:hover{
+  color: #53879D;
+  text-decoration-line: none;
 }
 
 .artist, .am, .spotify, .artist_one{
@@ -285,6 +293,32 @@ figcaption{
   height: 580px;
 }
 
+#arrow{
+  position: fixed;
+  top: 725px;
+  height: 75px;
+  width: 75px;
+  left: 1250px;
+}
+
+
+/* Collections */
+
+.collection_link a:hover{
+  color: #0100EE;
+  text-decoration-line: underline;
+}
+
+#topc h1 a:hover{
+  color: #8C3448;
+  text-decoration-line: none;
+}
+
+#topc nav a:hover{
+  color: #8C3448;
+  text-decoration-line: none;
+}
+
 #collections{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -343,6 +377,17 @@ figcaption{
 }
 
 
+/* Contact Us */
+
+#topcu h1 a:hover{
+  color: #008001;
+  text-decoration-line: none;
+}
+
+#topcu nav a:hover{
+  color: #008001;
+  text-decoration-line: none;
+}
 
 #contact{
   display: grid;
@@ -451,12 +496,4 @@ figcaption{
 
 .social_link a:active{
   color: #000;
-}
-
-#arrow{
-  position: fixed;
-  top: 725px;
-  height: 75px;
-  width: 75px;
-  left: 1250px;
 }
