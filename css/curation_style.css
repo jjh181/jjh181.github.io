@@ -668,27 +668,6 @@ figcaption{
         "chance mraz";
   }
 
-  #collections{
-    grid-template-areas:
-      "sospic"
-      "sostitle"
-      "soslinks"
-      "sosdescrip"
-      "weekpic"
-      "weektitle"
-      "weeklinks"
-      "weekdescrip"
-      "more";
-  }
-
-  #sospic{
-    grid-area: sospic;
-  }
-
-  #weekpic{
-    grid-area: weekpic;
-  }
-
 
   #contact{
     grid-template-areas:
