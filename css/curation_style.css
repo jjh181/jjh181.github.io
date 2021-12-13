@@ -333,7 +333,7 @@ figcaption{
   grid-template-rows: minmax(min-content, max-content);
   grid-gap: 20px;
   grid-template-areas:
-    "pic pic pic pic"
+    "sospic sospic weekpic weekpic"
     "sostitle sostitle weektitle weektitle"
     "soslinks soslinks weeklinks weeklinks"
     "sosdescrip sosdescrip weekdescrip weekdescrip"
@@ -364,10 +364,12 @@ figcaption{
   margin-left: 20px;
 }
 
-#collectionpics{
-  display: flex;
-  grid-area: pic;
-  justify-content: space-between;
+#weekpic{
+  grid-area: weekpic;
+}
+
+#sospic{
+  grid-area: sospic;
 }
 
 #sostitle{
@@ -705,12 +707,6 @@ figcaption{
       "more";
   }
 
-  #weekpic{
-    grid-area: weekpic;
-  }
 
-  #sospic{
-    grid-area: sospic;
-  }
 
 }
