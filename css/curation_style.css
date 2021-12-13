@@ -301,6 +301,28 @@ figcaption{
   left: 1250px;
 }
 
+.artist_link a,
+.artist_link a:link{
+  color: #FFFFFF;
+  text-decoration-line: none;
+}
+
+.artist_link a:visited{
+  color: #FFFFFF;
+}
+
+.artist_link a:hover{
+  color: #FFFFFF;
+  text-decoration-line: underline;
+}
+
+.artist_link a:active{
+  color: #000;
+}
+
+
+
+
 
 /* Collections */
 
@@ -375,6 +397,10 @@ figcaption{
   grid-area: more;
   text-align: center;
 }
+
+
+
+
 
 
 /* Contact Us */
@@ -458,25 +484,6 @@ figcaption{
 
 .item{
   font-family: 'Assistant', sans-serif;
-}
-
-.artist_link a,
-.artist_link a:link{
-  color: #FFFFFF;
-  text-decoration-line: none;
-}
-
-.artist_link a:visited{
-  color: #FFFFFF;
-}
-
-.artist_link a:hover{
-  color: #FFFFFF;
-  text-decoration-line: underline;
-}
-
-.artist_link a:active{
-  color: #000;
 }
 
 .social_link a,
