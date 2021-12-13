@@ -31,7 +31,7 @@ a:active{
 #title{
   align-content: center;
   justify-content: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', "Helvetica", "Arial", serif;
   font-size: 27px;
 }
 
@@ -58,17 +58,17 @@ nav{
   display: flex;
   justify-content: space-between;
   min-width: 325px;
-  font-family: 'M Plus 2', sans-serif;
+  font-family: 'M Plus 2', "Helvetica", "Arial", sans-serif;
   padding-right: 80px;
 }
 
 #about h1{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', "Helvetica", "Arial", serif;
   font-size: 70px;
 }
 
 #about p{
-  font-family: 'M Plus 2', sans-serif;
+  font-family: 'M Plus 2', "Helvetica", "Arial", sans-serif;
   font-size: 15px;
 }
 
@@ -89,7 +89,7 @@ nav{
 
 figcaption{
   text-align: center;
-  font-family: 'M Plus 2', sans-serif;
+  font-family: 'M Plus 2', "Helvetica", "Arial", sans-serif;
   font-size: 10px;
 }
 
@@ -123,25 +123,25 @@ figcaption{
 }
 
 .artist{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', "Helvetica", "Arial", serif;
   margin-top: 215px;
   font-size: 30px;
 }
 
 .artist_one{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', "Helvetica", "Arial", serif;
   margin-top: 255px;
   font-size: 30px;
 }
 
 .am, .spotify{
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Assistant', "Helvetica", "Arial", sans-serif;
   font-size: 15px;
   margin-bottom: 20px;
 }
 
 .attr{
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Assistant', "Helvetica", "Arial", sans-serif;
   font-size: 10px;
   color: #FFFFFF;
   margin-top: 180px;
@@ -379,7 +379,7 @@ figcaption{
 #sosdescrip{
   grid-area: sosdescrip;
   width: auto;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'M Plus 2', "Helvetica", "Arial", sans-serif;
 }
 
 #weektitle{
@@ -389,7 +389,7 @@ figcaption{
 
 #weekdescrip{
   grid-area: weekdescrip;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'M Plus 2', "Helvetica", "Arial", sans-serif;
 }
 
 #more{
@@ -478,12 +478,12 @@ figcaption{
 
 
 .title{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', "Helvetica", "Arial", serif;
   font-size: 25px;
 }
 
 .item{
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Assistant', "Helvetica", "Arial", sans-serif;
 }
 
 .social_link a,
@@ -559,7 +559,7 @@ figcaption{
 
 .weeklongattr{
   grid-area: weekattr;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Assistant', "Helvetica", "Arial", sans-serif;
   font-size: 10px;
   margin-top: 0px;
   margin-left: 5px;
@@ -640,7 +640,7 @@ figcaption{
 }
 
 .day{
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Assistant', "Helvetica", "Arial", sans-serif;
 }
 
 .day a:hover{
