@@ -721,8 +721,8 @@ figcaption{
   }
 
   #collections{
-    justify-content: center;
-    margin: auto;
+    margin-left: 80px;
+    margin-right: 80px;
     grid-template-areas:
       "sospic"
       "sostitle"
