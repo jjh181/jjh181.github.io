@@ -675,6 +675,7 @@ figcaption{
   }
 
   #artist_playlists{
+    grid-template-columns: repeat(2, 1fr);
     margin: auto;
     grid-template-areas:
         "tyler frank"
