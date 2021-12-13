@@ -329,15 +329,15 @@ figcaption{
 
 #collections{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: minmax(min-content, max-content);
   grid-gap: 20px;
   grid-template-areas:
-    "sospic sospic weekpic weekpic"
-    "sostitle sostitle weektitle weektitle"
-    "soslinks soslinks weeklinks weeklinks"
-    "sosdescrip sosdescrip weekdescrip weekdescrip"
-    "more more more more";
+    "sospic  weekpic"
+    "sostitle weektitle"
+    "soslinks weeklinks"
+    "sosdescrip weekdescrip"
+    "more more";
   margin-left: 82px;
   margin-right: 80px;
 }
