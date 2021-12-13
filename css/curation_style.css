@@ -675,8 +675,10 @@ figcaption{
   }
 
   #about{
-    padding-left: 125px;
+    padding: auto;
+    align-content: center;
     justify-self: center;
+    margin: 0;
   }
 
   #artist_playlists{
@@ -691,6 +693,9 @@ figcaption{
         "chance mraz";
   }
 
+  .week{
+    margin: 0;
+  }
 
 
   .row1{
