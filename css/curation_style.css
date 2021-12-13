@@ -335,36 +335,24 @@ figcaption{
   grid-template-areas:
     "sospic sospic weekpic weekpic"
     "sostitle sostitle weektitle weektitle"
-    "sosapple sosspotify weekapple weekspotify"
+    "soslinks soslinks weeklinks weeklinks"
     "sosdescrip sosdescrip weekdescrip weekdescrip"
     "more more more more";
   margin-left: 82px;
   margin-right: 80px;
 }
 
-#sosapple {
-  grid-area: sosapple;
-  justify-self: left;
-  margin-left: 15px;
+#soslinks{
+  display: flex;
+  grid-area: soslinks;
+  gap: 20px;
 }
 
-#sosspotify{
-  grid-area: sosspotify;
-  justify-self: left;
-  margin-left: -230px;
-
-}
-
-#weekapple{
-  grid-area: weekapple;
-  justify-self: left;
-  margin-left: 30px;
-}
-
-#weekspotify{
-  grid-area: weekspotify;
-  justify-self: left;
-  margin-left: -215px;
+#weeklinks{
+  display: flex;
+  grid-area: weeklinks;
+  margin-left: 20px;
+  gap: 20px;
 }
 
 .sos{
@@ -529,6 +517,7 @@ figcaption{
   grid-template-rows: minmax(min-content, max-content);
   grid-template-areas:
     "title"
+    "weekattr"
     "row1"
     "row2";
   margin: -10px 80px auto 82px;
@@ -546,7 +535,7 @@ figcaption{
   grid-template-areas:
     "sunpic monpic tuespic wedpic"
     "sunday monday tuesday wednesday";
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .row2{
@@ -560,12 +549,23 @@ figcaption{
   margin-top: 25px;
 }
 
+
+
 .pic{
   margin: 0;
 }
 
 .weeklongtitle{
   grid-area: title;
+  margin-bottom: 0px;
+}
+
+.weeklongattr{
+  grid-area: weekattr;
+  font-family: 'Assistant', sans-serif;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: 5px;
 }
 
 .sunpic{
