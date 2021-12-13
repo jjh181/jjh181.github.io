@@ -14,6 +14,7 @@ a:link{
   text-decoration-line: none;
 }
 
+
 a:visited{
   color: #000;
 }
@@ -96,21 +97,6 @@ figcaption{
   grid-area: text;
   padding: 25px 197px 0 102px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -343,16 +329,42 @@ figcaption{
 
 #collections{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: minmax(min-content, max-content);
   grid-gap: 20px;
   grid-template-areas:
-    "sospic weekpic"
-    "sostitle weektitle"
-    "sosdescrip weekdescrip"
-    "more more";
+    "sospic sospic weekpic weekpic"
+    "sostitle sostitle weektitle weektitle"
+    "sosapple sosspotify weekapple weekspotify"
+    "sosdescrip sosdescrip weekdescrip weekdescrip"
+    "more more more more";
   margin-left: 82px;
   margin-right: 80px;
+}
+
+#sosapple {
+  grid-area: sosapple;
+  justify-self: left;
+  margin-left: 15px;
+}
+
+#sosspotify{
+  grid-area: sosspotify;
+  justify-self: left;
+  margin-left: -230px;
+
+}
+
+#weekapple{
+  grid-area: weekapple;
+  justify-self: left;
+  margin-left: 30px;
+}
+
+#weekspotify{
+  grid-area: weekspotify;
+  justify-self: left;
+  margin-left: -215px;
 }
 
 .sos{
@@ -498,9 +510,140 @@ figcaption{
 
 .social_link a:hover{
   color: #000;
-  text-decoration-line: none;
+  text-decoration-line: underline;
 }
 
 .social_link a:active{
   color: #000;
+}
+
+
+
+/*  Week Long */
+
+.weeklong{
+  display: grid;
+  grid-template-rows: minmax(min-content, max-content);
+  grid-template-areas:
+    "title"
+    "row1"
+    "row2";
+  margin: -10px 80px auto 82px;
+  margin-left: 82px;
+  margin-right: 80px;
+  margin-top: -10px;
+}
+
+
+.row1{
+  display: grid;
+  grid-area: row1;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(min-content, max-content);
+  grid-template-areas:
+    "sunpic monpic tuespic wedpic"
+    "sunday monday tuesday wednesday";
+  margin-top: 15px;
+}
+
+.row2{
+  display: grid;
+  grid-area: row2;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(min-content, max-content);
+  grid-template-areas:
+    "thurspic fripic satpic"
+    "thursday friday saturday";
+  margin-top: 25px;
+}
+
+.pic{
+  margin: 0;
+}
+
+.weeklongtitle{
+  grid-area: title;
+}
+
+.sunpic{
+  grid-area: sunpic;
+  justify-self: center;
+}
+
+.sunday{
+  grid-area: sunday;
+  text-align: center;
+}
+
+.monpic{
+  grid-area: monpic;
+  justify-self: center;
+}
+
+.monday{
+  grid-area: monday;
+  text-align: center;
+}
+
+.tuespic{
+  grid-area: tuespic;
+  justify-self: center;
+}
+
+.tuesday{
+  grid-area: tuesday;
+  text-align: center;
+}
+
+.wedpic{
+  grid-area: wedpic;
+  justify-self: center;
+}
+
+.wednesday{
+  grid-area: wednesday;
+  text-align: center;
+}
+
+.thurspic{
+  grid-area: thurspic;
+  justify-self: right;
+  margin-right: 25px;
+}
+
+.thursday{
+  grid-area: thursday;
+  text-align: right;
+  margin-right: 75px;
+}
+
+.fripic{
+  grid-area: fripic;
+  justify-self: center;
+}
+
+.friday{
+  grid-area: friday;
+  text-align: center;
+}
+
+.satpic{
+  grid-area: satpic;
+  justify-self: left;
+  margin-left: 25px;
+}
+
+.saturday{
+  grid-area: saturday;
+  text-align: left;
+  margin-left: 75px;
+}
+
+.day{
+  font-family: 'Assistant', sans-serif;
+}
+
+.day a:hover{
+  color: #000;
+  text-decoration-line: underline;
 }
