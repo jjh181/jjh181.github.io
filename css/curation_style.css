@@ -667,11 +667,14 @@ figcaption{
   }
 
   #player{
-    grid-area: figure;
     margin: auto;
     margin-top: 17px;
     align-content: center;
     justify-self: center;
+    padding: 0;
+  }
+
+  #about{
     padding: 0;
   }
 
