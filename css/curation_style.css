@@ -394,6 +394,7 @@ figcaption{
 #sosdescrip{
   grid-area: sosdescrip;
   width: auto;
+  font-family: 'Assistant', sans-serif;
 }
 
 #weektitle{
@@ -403,11 +404,13 @@ figcaption{
 
 #weekdescrip{
   grid-area: weekdescrip;
+  font-family: 'Assistant', sans-serif;
 }
 
 #more{
   grid-area: more;
   text-align: center;
+  font-family: 'Assistant', sans-serif;
 }
 
 
