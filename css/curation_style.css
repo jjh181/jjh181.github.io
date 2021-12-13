@@ -372,13 +372,11 @@ figcaption{
 
 #sostitle{
   grid-area: sostitle;
-  width: auto;
-  width: auto;
 }
 
 #sosdescrip{
   grid-area: sosdescrip;
-  width: auto;
+  padding-right: 150px;
   font-family: 'M Plus 2', "Helvetica", "Arial", sans-serif;
 }
 
