@@ -669,19 +669,6 @@ figcaption{
   }
 
 
-  #contact{
-    grid-template-areas:
-      "socialtitle"
-      "insta-icon"
-      "insta"
-      "twitter-icon"
-      "twitter"
-      "apple-icon"
-      "applem"
-      "spotify-icon"
-      "spotify";
-  }
-
 
   .row1{
     grid-template-areas:
@@ -705,8 +692,25 @@ figcaption{
       "saturday";
   }
 
+  #collections{
+    grid-template-areas:
+      "sospic"
+      "sostitle"
+      "soslinks"
+      "sosdescrip"
+      "weekpic"
+      "weektitle"
+      "weeklinks"
+      "weekdescrip"
+      "more";
+  }
 
+  #weekpic{
+    grid-area: weekpic;
+  }
 
-
+  #sospic{
+    grid-area: sospic;
+  }
 
 }
