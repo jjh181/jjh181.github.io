@@ -1,51 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Homemade+Apple&family=Indie+Flower&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=M+PLUS+2:wght@300&family=Playfair+Display&display=swap');
 
-#top{
-  background-color: #DC1720;
-  position: fixed;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  max-height: 80px;
-  padding-left: 33px;
-  z-index: 1;
-}
-
-#top a,
-#top a:link{
-  color: #000;
-  text-decoration-line: none;
-}
-
-#top a:visited{
-  color: #000;
-}
-
-#top h1 a:hover{
-  color: #000;
-}
-
-#top nav a:hover{
-  color: #0000E4;
-  text-decoration-line: underline;
-}
-
-#top a:active{
-  color: #000;
+#title{
+  align-content: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
 }
 
 a,
 a:link{
-  color: #0000E4;
+  color: #000;
   text-decoration-line: none;
 }
 
 a:visited{
-  color: #0000E4;
+  color: #000;
 }
 
-a:hover{
-  color: #0000E4;
+.collection_link a:hover{
+  color: #0100EE;
+  text-decoration-line: underline;
+}
+
+#topi h1 a:hover{
+  color: #D97A16;
+  text-decoration-line: none;
+}
+
+#topi nav a:hover{
+  color: #D97A16;
+  text-decoration-line: none;
+}
+
+#topap h1 a:hover{
+  color: #53879D;
+  text-decoration-line: none;
+}
+
+#topap nav a:hover{
+  color: #53879D;
+  text-decoration-line: none;
+}
+
+#topc h1 a:hover{
+  color: #8C3448;
+  text-decoration-line: none;
+}
+
+#topc nav a:hover{
+  color: #8C3448;
+  text-decoration-line: none;
+}
+
+#topcu h1 a:hover{
+  color: #008001;
+  text-decoration-line: none;
+}
+
+#topcu nav a:hover{
+  color: #008001;
+  text-decoration-line: none;
+}
+
+.active{
   text-decoration-line: underline;
 }
 
@@ -53,190 +70,393 @@ a:active{
   color: #000;
 }
 
-#top h1{
-  font-family: "Homemade Apple", "Helvetica", "Arial", sans-serif;
-  position: relative;
-  font-size: 40px;
-  margin: 0;
-  padding: 0;
-  top: 4px;
-  height: 100px;
-  text-decoration-line: none;
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: -22px;
+  max-height: 100px;
+  margin-left: 80px;
 }
 
-#top nav{
-  font-size: 18px;
-  justify-content: center;
-  position: fixed;
-  margin: 0;
-  top: 7px;
-  right: 0%;
-  padding-right: 15px;
+nav{
+  display: flex;
+  justify-content: space-between;
+  min-width: 325px;
+  font-family: 'M Plus 2', sans-serif;
+  padding-right: 80px;
 }
 
-#introduction p, #geography p, #economy li, #economy p, #economy td, #geography td, #government td, #government li, footer {
-  font-family: "Indie Flower", "Helvetica", "Arial", sans-serif;
+#about h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
 }
 
-#economy li::marker{
-  font-family: serif;
+#about p{
+  font-family: 'M Plus 2', sans-serif;
   font-size: 15px;
 }
 
-h2{
-  font-family: "Caveat","Helvetica", "Arial", sans-serif;
-  font-size: 33px;
-  margin-bottom: -7px;
+#home{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+      "figure text";
 }
 
-#government h2, #geography h2{
-  margin-left: -4px;
+#player{
+  grid-area: figure;
+  margin: 0;
+  margin-top: 17px;
+  align-content: center;
+  padding-left: 80px;
 }
 
-h3{
-  font-family: "Nunito","Helvetica", "Arial", sans-serif;
-  font-style: italic;
-}
-
-p{
-  line-height: 1.6;
-}
-
-table {
-  table-layout: auto;
-  width: auto;
-  border: none;
-  border-collapse: collapse;
-}
-
-td {
-  border: none;
+figcaption{
   text-align: center;
-  vertical-align: middle;
-  line-height: 1.5;
+  font-family: 'M Plus 2', sans-serif;
+  font-size: 10px;
 }
 
-.left{
-  padding-right: 15px;
+#about{
+  grid-area: text;
+  padding: 25px 197px 0 102px;
 }
 
-.right{
-  border-left: 1px solid #000000;
-  padding-left: 15px;
+.artist, .am, .spotify, .artist_one{
+  color: #FFFFFF;
+  margin-left: 35px;
 }
 
-.center{
-  border-left: 1px solid #000000;
-  padding-right: 15px;
-  padding-left: 15px;
+.artist{
+  font-family: 'Playfair Display', serif;
+  margin-top: 215px;
+  font-size: 30px;
 }
 
-.leader{
-  border-bottom: 1px solid #000000;
+.artist_one{
+  font-family: 'Playfair Display', serif;
+  margin-top: 255px;
+  font-size: 30px;
 }
 
-.space{
+.am, .spotify{
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
   margin-bottom: 20px;
 }
 
-.space2{
-  margin-top: 15px;
+.attr{
+  font-family: 'Assistant', sans-serif;
+  font-size: 10px;
+  color: #FFFFFF;
+  margin-top: 180px;
+  text-align: center;
 }
 
-.title{
-  margin-bottom: 15px;
+.attr a,
+.attr a:link{
+  color: #FFFFFF;
+  text-decoration-line: underline;
 }
 
-html{
-  scroll-padding: 80px;
+.attr a:visited{
+  color: #FFFFFF;
 }
 
-main{
+.attr a:hover{
+  color: #FFFFFF;
+  text-decoration-line: underline;
+}
+
+.attr a:active{
+  color: #FFFFFF;
+}
+
+#artist_playlists{
+  display: grid;
+  grid-template-columns: repeat(3, 405px);
+  grid-template-rows: repeat(4, 580px);
+  grid-gap: 25px;
+  grid-template-areas:
+      "tyler frank smino"
+      "denzel kendrick andy"
+      "andre cole jid"
+      "caesar chance mraz";
+  margin: 10px 80px 40px 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+
+#tyler{
+  background-image: url("../images/tyler.jpg");
+  grid-area: tyler;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#frank{
+  background-image: url("../images/frank.jpg");
+  grid-area: frank;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#smino{
+  background-image: url("../images/smino.jpg");
+  grid-area: smino;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#denzel{
+  background-image: url("../images/denzel.jpg");
+  grid-area: denzel;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#kendrick{
+  background-image: url("../images/kendrick.jpg");
+  grid-area: kendrick;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#andy{
+  background-image: url("../images/andy.jpg");
+  grid-area: andy;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#andre{
+  background-image: url("../images/andre.jpg");
+  grid-area: andre;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#cole{
+  background-image: url("../images/cole.jpg");
+  grid-area: cole;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#jid{
+  background-image: url("../images/jid.jpg");
+  grid-area: jid;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#caesar{
+  background-image: url("../images/caesar.jpg");
+  grid-area: caesar;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#chance{
+  background-image: url("../images/chance.jpg");
+  grid-area: chance;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#mraz{
+  background-image: url("../images/mraz.jpg");
+  grid-area: mraz;
+  background-size: cover;
+  width: 405px;
+  height: 580px;
+}
+
+#collections{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(min-content, max-content);
+  grid-template-rows: minmax(min-content, max-content);
+  grid-gap: 20px;
   grid-template-areas:
-    "introduction figure1"
-    "figure2 geography"
-    "figure3 government"
-    "economy figure4";
-  margin-top: 80px;
+    "sospic weekpic"
+    "sostitle weektitle"
+    "sosdescrip weekdescrip"
+    "more more";
+  margin-left: 82px;
+  margin-right: 80px;
 }
 
-#introduction, #geography, #government, #economy, footer{
-  padding-left: 130px;
-  padding-right: 195px;
-}
-
-#introduction{
-  grid-area: introduction;
-}
-
-#figure1{
-  justify-self: center;
-  grid-area: figure3;
-  width: 450px;
-  height: 323px;
-  margin: 0;
-  margin-top: 95px;
-}
-
-#figure1 figcaption{
-  text-align: center;
-}
-
-#figure2{
-  justify-self: center;
-  grid-area: figure1;
-  margin: 0;
-  margin-top: 25px;
-}
-
-#figure2 figcaption{
-  text-align: center;
-  width: 650px;
-}
-
-#geography{
-  grid-area: geography;
-}
-
-#figure3{
-  justify-self: center;
-  grid-area: figure2;
-  margin-top: 45px;
-}
-
-#figure3 figcaption{
-  text-align: center;
-}
-
-#government{
-  grid-area: government;
-  margin-top: 65px;
-}
-
-#figure4{
-  grid-area: figure4;
-  align-self: flex-end;
-  justify-self: center;
+.sos{
   margin: 0;
 }
 
-#figure4 figcaption{
+.week{
+  margin: 0;
+  margin-left: 20px;
+}
+
+#sospic{
+  grid-area: sospic;
+  width: auto;
+}
+
+#weekpic{
+  grid-area: weekpic;
+}
+
+#sostitle{
+  grid-area: sostitle;
+  width: auto;
+  width: auto;
+}
+
+#sosdescrip{
+  grid-area: sosdescrip;
+  width: auto;
+}
+
+#weektitle{
+  grid-area: weektitle;
+
+}
+
+#weekdescrip{
+  grid-area: weekdescrip;
+}
+
+#more{
+  grid-area: more;
   text-align: center;
 }
 
-#economy{
-  grid-area: economy;
-  margin-top: -700px;
+
+
+#contact{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(min-content, max-content);
+  grid-template-areas:
+    "socialtitle socialtitle socialtitle socialtitle"
+    "insta-icon twitter-icon apple-icon spotify-icon"
+    "insta twitter applem spotify";
+  margin-left: 82px;
+  margin-right: 80px;
 }
 
-body{
-  background-color: #FFF5D7;
+#socialtitle{
+  grid-area: socialtitle;
+  margin-bottom: 25px;
 }
 
-@media (max-width: 736px) {
-  #top nav{
-    font-size: 17px;
+#insta{
+  grid-area: insta;
+  text-align: center;
+}
+
+#twitter{
+  grid-area: twitter;
+  text-align: center;
+}
+
+#applem{
+  grid-area: applem;
+  text-align: center;
+}
+
+#spotify{
+  grid-area: spotify;
+  text-align: center;
+}
+
+.fa-instagram{
+  grid-area: insta-icon;
+  justify-self: center;
+}
+
+.fa-twitter{
+  grid-area: twitter-icon;
+  justify-self: center;
+}
+
+.fa-apple{
+  grid-area: apple-icon;
+  justify-self: center;
+}
+
+.fa-spotify{
+  grid-area: spotify-icon;
+  justify-self: center;
+}
+
+.fab{
+  font-size: 50px;
+}
+
+
+.title{
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+}
+
+.item{
+  font-family: 'Assistant', sans-serif;
+}
+
+.artist_link a,
+.artist_link a:link{
+  color: #FFFFFF;
+  text-decoration-line: none;
+}
+
+.artist_link a:visited{
+  color: #FFFFFF;
+}
+
+.artist_link a:hover{
+  color: #FFFFFF;
+  text-decoration-line: underline;
+}
+
+.artist_link a:active{
+  color: #000;
+}
+
+.social_link a,
+.social_link a:link{
+  color: #000;
+  text-decoration-line: none;
+}
+
+.social_link a:visited{
+  color: #000;
+}
+
+.social_link a:hover{
+  color: #000;
+  text-decoration-line: none;
+}
+
+.social_link a:active{
+  color: #000;
+}
+
+#arrow{
+  position: fixed;
+  top: 725px;
+  height: 75px;
+  width: 75px;
+  left: 1250px;
 }
