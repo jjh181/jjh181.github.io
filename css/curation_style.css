@@ -178,9 +178,7 @@ figcaption{
       "andre cole jid"
       "caesar chance mraz";
   margin: 10px 80px 40px 80px;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 10px;
+
 }
 
 #tyler{
@@ -678,6 +676,7 @@ figcaption{
 
   #artist_playlists{
     grid-gap: 5px;
+    margin: auto;
     grid-template-areas:
         "tyler frank"
         "smino denzel"
