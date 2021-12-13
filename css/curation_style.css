@@ -652,7 +652,7 @@ figcaption{
 
 
 
-@media (max-width: 736px) {
+@media (max-width: 414px) {
   #home{
     grid-template-areas:
         "figure"
